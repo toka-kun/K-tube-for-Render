@@ -69,7 +69,14 @@
       "thumbnail": "https://i.postimg.cc/5tzkYBKK/Bjgv-Zj-fo-YPw-Ah5y-Q.avif",
       "embedUrl": "/Games/FRAGEN/index.html",
       "description": "FPS（少し重いかも...）"
-    }
+    },
+        {
+      "id": "lift-off",
+      "title": "lift-off",
+      "thumbnail": "https://i.postimg.cc/3rDn1shs/Screenshot-2026-05-21-10-54-19.png",
+      "embedUrl": "/Games/lift-off/index.html",
+      "description": "ロケット発射シミュレーター"
+    },
     
   ]
 }
