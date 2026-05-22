@@ -480,7 +480,12 @@ app.get("/download", async (req, res) => {
 
 // 統計取得API
 app.get("/stats", async (req, res) => {
-  const today = new Date().toISOString().split("T")[0];
+  // JSTでYYYY-MM-DDを作る
+  const today = new Date(
+    new Date().toLocaleString("en-US", { timeZone: "Asia/Tokyo" })
+  )
+    .toISOString()
+    .split("T")[0];
 
   const { data, error } = await supabase
     .from("access_stats")
