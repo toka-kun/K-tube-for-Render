@@ -1,61 +1,88 @@
 # K-tube（永久・安定版）
 
-K-tubeは、YouTubeが見られない環境でも動画を視聴できるよう設計された非公式クライアントです。
+K-tubeは、YouTubeが利用できない環境でも動画を視聴できるように設計された非公式クライアントです。
 
-デモURL https://k-tube-for-public-release.onrender.com
+**デモURL**
+https://k-tube-for-public-release.onrender.com
 
 ---
+
 ## バージョン更新について
 
-こちらのプロジェクトは、永久・安定版です。
-頻繁に更新するのは、vercel板です。
+このプロジェクトは**永久・安定版**です。
 
-#### vercel板は、こちら　https://github.com/KA1121Studio/k-tube-for-public-release-2
+新機能の追加や頻繁なアップデートは、Vercel版で行っています。
+
+### Vercel版
+
+https://github.com/KA1121Studio/k-tube-for-public-release-2
 
 ---
 
 ## デプロイ方法
 
-ワンクリックで自分の環境にデプロイすることができます。
+ワンクリックで自分の環境へデプロイできます。
 
 ### Render
+
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/KA1121Studio/K-tube-For-public-release)
 
-#### vercel板は、こちら　https://github.com/KA1121Studio/k-tube-for-public-release-2
+### Vercel版
+
+https://github.com/KA1121Studio/k-tube-for-public-release-2
 
 ---
 
-## 動画取得方法のオプション（任意）
+## 動画取得オプション（任意）
 
-K-tubeは、yt-dlpに対応しています。使用する場合、リポジトリ直下にyoutube-cookies.txtというファイルがあるのでそこに自分のクッキーを入れてください
+K-tubeは **yt-dlp** に対応しています。
 
-### ⚠️注意⚠️
-youtube-cookies.txtは、外部の漏らさないようにしてください。悪用される可能性があります。なので、捨て垢などを作るといいです。
+利用する場合は、リポジトリ直下にある `youtube-cookies.txt` に自身のYouTubeクッキーを設定してください。
+
+### ⚠️ 注意 ⚠️
+
+`youtube-cookies.txt` を第三者に公開しないでください。
+
+クッキーが漏洩すると、アカウントが不正利用される可能性があります。
+
+安全のため、本アカウントではなくサブアカウント（捨てアカウント）の利用を推奨します。
 
 ---
 
-## 動作条件
+## 動作環境
 
-node.js
-
-npn
+* Node.js
+* npm
 
 ---
 
 ## ローカルでの実行方法
 
-### 依存関係
+### 依存関係のインストール
 
-npm install （yt-dlpを使用する場合は、npn install && pip install yt-dlp）
+通常：
 
-### サーバー起動
+```bash
+npm install
+```
 
+yt-dlpを利用する場合：
+
+```bash
+npm install
+pip install yt-dlp
+```
+
+### サーバーの起動
+
+```bash
 npm start
+```
 
 ---
 
-## 質問
+## お問い合わせ
 
-### 質問当ございましたら、以下まで連絡をお願いします
+ご質問や不具合報告などがありましたら、以下までご連絡ください。
 
 https://scratch.mit.edu/users/I-love-Proxy/
