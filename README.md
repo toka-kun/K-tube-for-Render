@@ -1,8 +1,16 @@
-# K-tube
+# K-tube（永久・安定版）
 
 K-tubeは、YouTubeが見られない環境でも動画を視聴できるよう設計された非公式クライアントです。
 
 デモURL https://k-tube-for-public-release.onrender.com
+
+---
+## バージョン更新について
+
+こちらのプロジェクトは、永久・安定版です。
+頻繁に更新するのは、vercel板です。
+
+#### vercel板は、こちら　https://github.com/KA1121Studio/k-tube-for-public-release-2
 
 ---
 
